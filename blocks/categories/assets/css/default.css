@@ -1,0 +1,42 @@
+.block-categories .categories{
+    border: 1px solid #dadada;
+}
+.block-categories .list-cats{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+.block-categories .list-cats li{
+    margin: 0; padding: 0;
+    width: 221px;
+}
+.block-categories .list-cats li a{
+    display: block;
+    height: 50px; line-height: 50px;
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    background: #f5f5f5 url(../images/li.png) 14px 14px no-repeat;
+    color: #555454;
+    text-decoration: none; font-weight: bold;
+    font-size: 13px;
+    padding-left: 46px;
+}
+.block-categories .list-cats li a:hover,
+.block-categories .list-cats li a.selected{
+    background: #FFF url(../images/li-selected.png) 14px 14px no-repeat;
+    border-right: none !important;
+}
+.block-categories .list-cats li:last-child a{
+    border-bottom: none;
+}
+.block-categories .list-products{
+    margin: 0; padding: 0;
+    list-style: none;
+    width: 718px;
+}
+.block-categories .list-products li{
+    margin: 0; padding: 20px 0 0 0;
+    width: 718px;
+}
+.block-categories .list-products li article{
+    margin-left: 11px;
+}

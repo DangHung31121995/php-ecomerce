@@ -1,0 +1,6 @@
+.for-fair{
+    display: none;
+}
+.ui-autocomplete{
+    z-index: 9999 !important;
+}

@@ -1,0 +1,93 @@
+.block-news-small ul{
+    display: block;
+    margin: 0 0 10px 0; padding: 0;
+    list-style: none;
+    height: 38px;
+    line-height: 38px;
+}
+.block-news-small ul li{
+    margin: 0; padding: 0; display: block; float: left;
+}
+.block-news-small ul li a{
+    color: #666666;
+    display: block;
+    height: 38px;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.block-news-small ul li a.selected{
+    border-left: 1px solid #F26729;
+    border-radius: 19px;
+    border-right: 1px solid #F26729;
+    border-top: 2px solid #F26729;
+    color: #64A800;
+    height: 36px;
+    line-height: 34px;
+    padding: 0 24px;
+    font-weight: bold;
+}
+.block-news-small ul:after{
+    float: none; clear: both; content: "."; display: block; height: 0; visibility: hidden;
+}
+.block-news-small .small-left{
+    width: 526px;
+}
+.block-news-small .small-right{
+    width: 265px;
+}
+.block-news-small article:after{
+    float: none; clear: both; content: "."; display: block; height: 0; visibility: hidden;
+}
+.block-news-small article .thumb{
+    display: inline-block; float: left;
+    margin-right: 12px;
+}
+.block-news-small article h2 a{
+    color: #548d00;
+}
+.block-news-small article.item-1 h2{
+    padding-bottom: 5px;
+}
+.block-news-small article p{
+    margin: 0;
+}
+.block-news-small article.item-1{
+    margin-bottom: 5px;
+}
+.block-news-small article.item-5,
+.block-news-small article.item-6,
+.block-news-small article.item-7{
+    margin-bottom: 15px;
+}
+.block-news-small article.item-5 .thumb,
+.block-news-small article.item-6 .thumb,
+.block-news-small article.item-7 .thumb{
+    width: 84px; height: 55px;
+    overflow: hidden;
+}
+.block-news-small article.item-5 .thumb img,
+.block-news-small article.item-6 .thumb img,
+.block-news-small article.item-7 .thumb img{
+    height: 55px;
+}
+.block-news-small article.item-2 h2,
+.block-news-small article.item-3 h2,
+.block-news-small article.item-4 h2{
+    font-weight: normal;
+    padding: 2px 0 2px 15px;
+    background: url(../images/arow.png) left 7px no-repeat;
+}
+.block-news-small article .readmore{
+    text-decoration: none;
+    display: inline-block;
+    height: 28px; line-height: 28px;
+    background-color: #7dbb21;
+    color: #fff;
+    padding: 0 20px; margin-top: 5px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+}
+.block-news-small article .readmore:hover{
+    background-color: #f26729;
+}

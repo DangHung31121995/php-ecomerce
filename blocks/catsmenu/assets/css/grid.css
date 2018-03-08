@@ -1,0 +1,18 @@
+.has-featured .block-catsmenu-grid{
+    height: 240px;
+    position: relative;
+}
+.has-featured .block-catsmenu-grid ul{
+    position: absolute; bottom: 0; left: 0;
+    width: 1112px;
+    z-index: 9999;
+}
+.block-catsmenu-grid ul{
+    margin: 0; padding: 0;    
+}
+.block-catsmenu-grid ul li{
+    float: left;
+    margin: 0; padding: 0; 
+    list-style: none;
+    margin-right: 12px;
+}

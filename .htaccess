@@ -1,0 +1,11 @@
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^www.miski.vn$
+#RewriteRule ^(.*)$ http://miski.vn/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^vi$ index.php?module=ajax&view=ajax&task=select_language&lang=vi&%{QUERY_STRING} [L]
+RewriteRule ^en$ index.php?module=ajax&view=ajax&task=select_language&lang=en&%{QUERY_STRING} [L]
+
+ErrorDocument 404 /404.html

@@ -1,0 +1,6 @@
+.block-banner-default .item{
+    margin-bottom: 10px;
+}
+.block-banner-default .item:last-child{
+    margin-bottom: 0;
+}

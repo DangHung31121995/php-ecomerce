@@ -1,0 +1,23 @@
+.box-counter .box-title{
+    height: 28px; line-height: 28px;
+    font-family: "Myriad Pro"; font-size: 16px;
+    color: #880900;
+    background-color: #ffc0bc;
+    text-transform: uppercase;
+    text-align: center;
+}
+.box-counter .fl{
+    line-height: 25px;
+    font-size: 14px;
+    color: #2d2d2d;
+    padding-left: 10px;
+}
+.box-counter .fr{
+    line-height: 25px;
+    font-size: 14px;
+    color: #2d2d2d;
+    padding-right: 10px;
+}
+.box-counter .fr.a123{
+    color: #68a300;
+}

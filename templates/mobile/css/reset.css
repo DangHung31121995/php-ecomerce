@@ -1,0 +1,350 @@
+/* `XHTML, HTML4, HTML5 Reset
+----------------------------------------------------------------------------------------------------*/
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+dialog,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+meter,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+thead,
+time,
+tt,
+u,
+ul,
+var,
+video,
+xmp {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+/*
+  Override the default (display: inline) for
+  browsers that do not recognize HTML5 tags.
+
+  IE8 (and lower) requires a shiv:
+  http://ejohn.org/blog/html5-shiv
+*/
+  display: block;
+}
+
+b,
+strong {
+/*
+  Makes browsers agree.
+  IE + Opera = font-weight: bold.
+  Gecko + WebKit = font-weight: bolder.
+*/
+  font-weight: bold;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  vertical-align: middle;
+/*
+  For IE.
+  http://css-tricks.com/ie-fix-bicubic-scaling-for-images
+*/
+  -ms-interpolation-mode: bicubic;
+}
+
+li {
+/*
+  For IE6 + IE7.
+*/
+  display: list-item;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th,
+td,
+caption {
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+
+q {
+  quotes: none;
+}
+
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+sub,
+sup,
+small {
+  font-size: 75%;
+}
+
+sub,
+sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+svg {
+/*
+  For IE9.
+*/
+  overflow: hidden;
+}
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 12px/1.5 Arial, 'Helvetica Neue', 'Liberation Sans', FreeSans, sans-serif;
+}
+
+pre,
+code {
+  font-family: 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+}
+
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+}
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}
+/*+----------------------------------------------------+*/
+/*|	JQUERY BOXY										   |*/
+/*+----------------------------------------------------+*/
+.boxy-wrapper { position: absolute; }
+.boxy-wrapper.fixed { position: fixed; }
+.boxy-modal-blackout { position: absolute; background-color: black; left: 0; top: 0; }
+.boxy-wrapper { empty-cells: show; }
+.boxy-wrapper .top-left,
+.boxy-wrapper .top-right,
+.boxy-wrapper .bottom-right,
+.boxy-wrapper .bottom-left { width: 10px; height: 10px; padding: 0 }
+.boxy-wrapper .top-left { background: url('../images/boxy-nw.png'); }
+.boxy-wrapper .top-right { background: url('../images/boxy-ne.png'); }
+.boxy-wrapper .bottom-right { background: url('../images/boxy-se.png'); }
+.boxy-wrapper .bottom-left { background: url('../images/boxy-sw.png'); }
+.boxy-wrapper .top-left { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/boxy-nw.png'); }
+.boxy-wrapper .top-right { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/boxy-ne.png'); }
+.boxy-wrapper .bottom-right { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/boxy-se.png'); }
+.boxy-wrapper .bottom-left { #background: none; #filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/boxy-sw.png'); }
+.boxy-wrapper .top,
+.boxy-wrapper .bottom { height: 10px; background-color: black; opacity: 0.6; filter: alpha(opacity=60); padding: 0 }
+.boxy-wrapper .left,
+.boxy-wrapper .right { width: 10px; background-color: black; opacity: 0.6; filter: alpha(opacity=60); padding: 0 }
+.boxy-wrapper .title-bar { background-color: black; padding: 6px; position: relative; }
+.boxy-wrapper .title-bar.dragging { cursor: move; }
+.boxy-wrapper .title-bar h2 { font-size: 12px; color: white; line-height: 1; margin: 0; padding: 0; font-weight: normal; }
+.boxy-wrapper .title-bar .close { color: white; position: absolute; top: 6px; right: 6px; font-size: 90%; line-height: 1; }
+.boxy-inner { background-color: white; padding: 0 }
+.boxy-content { padding: 15px; }
+.boxy-wrapper .question { width: 350px; min-height: 80px; }
+.boxy-wrapper .answers { text-align: right; }
+/* Common class
+----------------------------------------------------------------------------------------------------*/
+.css3{ position: relative;}
+.clear{ float: none; clear: both;}
+.clearfix{ float: none; clear: both; content: "."; display: block; height: 0; visibility: hidden;}
+.fl{ float: left;}
+.fr{ float: right;}
+.fn{ float: none; clear: both;}
+.noBorder{ border: none !important;}
+.dInline{ display: inline;}
+.dBlock{ display: block;}
+.dInlineBlock{ display: inline-block;}
+.center{ margin: 0 auto;}
+.tLeft{ text-align: left;}
+.tRight{ text-align: right;}
+.tCenter{ text-align: center;}
+.bold{ font-weight: bold;}
+.regular{ font-weight: normal;}
+.uppercase{ text-transform: uppercase;}
+.im{ color: #e80000;}
+.height5{ float: none; clear: both; content: "."; display: block; height: 5px; visibility: hidden;}
+.height7{ float: none; clear: both; content: "."; display: block; height: 7px; visibility: hidden;}
+.height10{ float: none; clear: both; content: "."; display: block; height: 10px; visibility: hidden;}
+.height12{ float: none; clear: both; content: "."; display: block; height: 12px; visibility: hidden;}
+.height15{ float: none; clear: both; content: "."; display: block; height: 15px; visibility: hidden;}
+.height20{ float: none; clear: both; content: "."; display: block; height: 20px; visibility: hidden;}
+a.df{ text-decoration: none;}
+a.df:hover{ text-decoration: underline;}
+h1.df,
+h2.df,
+h3.df,
+h4.df,
+h5.df{
+    margin: 0; padding: 0;
+    font-size: 12px;
+}
+ul.df{
+    margin: 0; padding: 0;
+    list-style: none;
+}
+ul.df li{
+    margin: 0; padding: 0;
+    display: block;
+    float: left;
+}

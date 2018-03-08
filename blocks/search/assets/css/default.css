@@ -1,0 +1,23 @@
+.block-search-default{
+    width: 488px;
+    height: 30px;
+    border: 1px solid #bcbcbc;
+}
+.block-search-default input{
+    display: block;
+    height: 28px; line-height: 30px;
+    border: none;
+    font-family:"Myriad Pro";
+}
+.block-search-default input[type="text"]{
+    width: 395px; float: left;
+}
+.block-search-default input[type="submit"]{
+    width: 89px; float: right;
+    background: #fafafa url(../images/search.png) 8px 7px no-repeat;
+    border-left: 1px solid #bcbcbc;
+    color: #ff010d;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 28px;
+}

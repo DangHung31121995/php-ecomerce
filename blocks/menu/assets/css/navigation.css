@@ -1,0 +1,36 @@
+.block-menu-navigation ul{
+    list-style: none;
+    margin: 0; padding: 0;
+}
+.block-menu-navigation ul li{
+    margin: 0; padding: 0;
+    display: block;
+    float: left;
+    height: 61px;
+}
+.block-menu-navigation ul li a{
+    display: block;
+    padding: 0 24px;
+    font-family:"Myriad Pro";
+    text-decoration: none;
+    height: 55px;
+    color: #2b2b2b;
+    border-left: 1px solid #e5e5e5;
+    border-top: 6px solid #fff;
+}
+.block-menu-navigation ul li.selected a,
+.block-menu-navigation ul li a:hover{
+    border-top: 6px solid #fa6900;
+    color: #fa6900;
+}
+.block-menu-navigation ul li a span{
+    display: block; 
+}
+.block-menu-navigation ul li a span.top{
+    font-size: 16px; text-align: center;
+    height: 25px; line-height: 25px;
+}
+.block-menu-navigation ul li a span.bot{
+    font-size: 18px; text-transform: uppercase;
+    height: 20px; line-height: 20px;
+}

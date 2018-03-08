@@ -1,0 +1,36 @@
+.block-products-slideshow .block-title{
+    height: 35px; line-height: 35px;
+    font-family:"Myriad Pro"; font-size: 20px;
+    color: #212121;
+    padding-left: 20px;
+}
+.block-products-slideshow .block-content{
+    margin-left: 43px;
+    position: relative;
+}
+.block-products-slideshow ul{
+    list-style: none;
+    margin: 0; padding: 0;
+}
+.block-products-slideshow ul li{
+    margin: 0; padding: 0;
+}
+.block-products-slideshow .block-content .tools{
+    position: absolute; display: block; top: 100px;
+    height: 32px; width: 32px;
+    background: url(../images/tools.png) no-repeat;
+    text-indent: -9999px;
+}
+.block-products-slideshow .block-content .tools.next{
+    background-position: left -64px;
+    right: 12px;
+}
+.block-products-slideshow .block-content .tools.next:hover{
+    background-position: left -96px;
+}
+.block-products-slideshow .block-content .tools.prev{
+    left: -31px;
+}
+.block-products-slideshow .block-content .tools.prev:hover{
+    background-position: left -32px;
+}

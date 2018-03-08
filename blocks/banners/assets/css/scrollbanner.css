@@ -1,0 +1,13 @@
+#divAdLeft{
+    DISPLAY: none; 
+    POSITION: absolute; 
+    TOP: 0px; width:180px; 
+    overflow:hidden;
+}
+#divAdRight{
+    DISPLAY: none; 
+    POSITION: absolute; 
+    TOP: 0px; 
+    width:180px; 
+    overflow:hidden;
+}

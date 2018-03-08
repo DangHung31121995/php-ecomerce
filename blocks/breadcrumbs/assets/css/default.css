@@ -1,0 +1,21 @@
+.block-breadcrumb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.block-breadcrumb a,
+.block-breadcrumb h1{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #333333;
+    margin: 0;
+}
+.block-breadcrumb h1 a{
+    color: #f70700;
+}
+.block-breadcrumb span{
+    display: inline-block;
+    padding: 0 5px;
+    margin-top: -3px;
+}

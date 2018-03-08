@@ -1,0 +1,15 @@
+.block-menu-default ul{
+    list-style: none;
+    margin: 0; padding: 0;
+    color: #ffffff;
+}
+.block-menu-default ul li{
+    margin: 0; padding: 0;
+    display: block; float: left;
+}
+.block-menu-default ul li span{
+    padding: 0 7px;
+}
+.block-menu-default ul li a{
+    color: #ffffff;
+}

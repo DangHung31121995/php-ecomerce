@@ -1,0 +1,66 @@
+.block-news-medium ul{
+    display: block;
+    margin: 0 0 10px 0; padding: 0;
+    list-style: none;
+    height: 38px;
+    line-height: 38px;
+}
+.block-news-medium ul li{
+    margin: 0; padding: 0; display: block; float: left;
+}
+.block-news-medium ul li a{
+    color: #666666;
+    display: block;
+    height: 38px;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.block-news-medium ul li a.selected{
+    border-left: 1px solid #F26729;
+    border-radius: 19px;
+    border-right: 1px solid #F26729;
+    border-top: 2px solid #F26729;
+    color: #64A800;
+    height: 36px;
+    line-height: 34px;
+    padding: 0 24px;
+    font-weight: bold;
+}
+.block-news-medium ul:after{
+    float: none; clear: both; content: "."; display: block; height: 0; visibility: hidden;
+}
+.block-news-medium .bitem-top{
+    width: 436px;
+}
+.block-news-medium .bitem-top h2{
+    font-size: 13px;
+    padding: 12px 0 7px 0;
+}
+.block-news-medium .bitem-top h2 a{
+    color: #548d00;
+}
+.block-news-medium .bitem-top p{
+    margin: 0; color: #000; font-size: 13px;
+}
+.block-news-medium .list{
+    width: 356px;
+}
+.block-news-medium .list article:after{
+    float: none; clear: both; content: "."; display: block; height: 15px; visibility: hidden;
+}
+.block-news-medium .list article:last-child:after{
+    height: 0;
+}
+.block-news-medium .list img{
+    float: left; margin-right: 15px;
+}
+.block-news-medium .list h2{
+    padding-bottom: 5px;
+}
+.block-news-medium .list h2 a{
+    color: #548d00; font-size: 13px;
+}
+.block-news-medium .list p{
+    margin: 0; color: #000; font-size: 13px;
+}

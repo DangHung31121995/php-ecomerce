@@ -1,0 +1,91 @@
+.block-news-default{
+    font-family: 'Open Sans',sans-serif;
+}
+.block-news-default .block-content{
+    background-color: #fff;
+    padding-top: 12px;
+}
+.block-news-default .block-title{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border-bottom: 2px solid #d3d3d3;
+    color: #474747;
+    float: none !important;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 0 !important;
+    position: relative;
+    text-transform: uppercase;
+}
+.block-news-default .block-title a{
+    border-bottom: 2px solid #e80a13;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    z-index: 99;
+}
+.block-news-default .block-title a:after {
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    border-right: 3px solid rgba(0, 0, 0, 0);
+    border-top: 3px solid #e80a13;
+    bottom: -5px;
+    content: "";
+    display: inline-block;
+    left: 50px;
+    position: absolute;
+}
+.block-news-default .item-top{
+    margin-bottom: 10px;
+}
+.block-news-default .item-top div{
+    margin-left: 10px;
+}
+.block-news-default .item-top .thumb{
+    display: block;
+    height: 255px;
+    overflow: hidden;
+}
+.block-news-default .item-top h2{
+    padding-top: 5px !important;
+    font-weight: bold !important;
+}
+.block-news-default .item-top h2{
+    line-height: 18px; font-size: 15px;
+    margin: 0 0 10px 0 !important;
+}
+.block-news-default .item-top h2 a{
+    color: #60a000;
+}
+.block-news-default .item-top .readmore{
+    display: none;
+    line-height: 25px;
+    height: 25px; padding: 0 10px;
+    border: 1px solid #98c953;
+    color: #98c953;
+}
+.block-news-default .item-top .readmore:hover{
+    background-color: #98c953;
+    color: #fff;
+}
+.block-news-default .item-regular h2{
+    line-height: 18px; font-size: 13px;
+    margin: 0 0 7px 0 !important;
+    font-weight: bold;
+}
+.block-news-default .item-regular h2 a{
+    color: #83be2f;
+}
+.block-news-default .item-regular p{
+    margin-bottom: 0;
+}
+.block-news-default .item-regular{
+    padding: 10px 0;
+    border-bottom: 1px dashed #cbcbcb;
+}
+.block-news-default .span5 .item-regular:first-child{
+    padding-top: 0 !important;
+}
+.block-news-default .span5 .item-regular:last-child{
+    border-bottom: 0 !important;
+}

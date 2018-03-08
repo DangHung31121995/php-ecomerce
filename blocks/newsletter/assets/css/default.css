@@ -1,0 +1,24 @@
+.block-newsletter{
+    width: 297px;
+    height: 25px;
+    background: #FFF;
+}
+.block-newsletter input#newsletter{
+    background: #FFF url(../images/email.png) 11px 6px no-repeat; border: none;
+    margin: 0; padding: 0 0 0 0;
+    height: 25px;
+    width: 176px;
+    padding-left: 40px;
+    color: #53606c;
+}
+.block-newsletter a{
+    width: 80px;
+    height: 25px; line-height: 25px;
+    display: block;
+    float: right;
+    background-color: #05aea0;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}

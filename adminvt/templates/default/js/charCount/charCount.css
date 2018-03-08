@@ -1,0 +1,8 @@
+form .counter{
+    display: inline-block;
+	color: #c5c5c5;
+    padding-left: 10px;
+    vertical-align: top;
+}
+form .warning{color:#600;}	
+form .exceeded{color: red;}	

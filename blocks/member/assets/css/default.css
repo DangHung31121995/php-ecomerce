@@ -1,0 +1,19 @@
+.block-member{
+    color: #666666;
+    height: 11px; line-height: 11px;
+}
+.block-member-default a,
+.block-member-default span{
+    float: left;
+    display: block;
+    margin-right: 5px;
+    color: #666666;
+}
+.block-member-default a.a24h{
+    text-decoration: none; font-size: 10px;
+    color: #666666;
+    border: 1px solid #d0d0d0;
+    padding: 0 3px;
+    border-radius: 3px;
+    box-shadow: 2px 2px #ededed;
+}

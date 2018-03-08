@@ -1,0 +1,7 @@
+.block-banner-home3banner ul li{
+    display: block;
+    height: 145px; width: 230px;
+}
+.block-banner-home3banner ul li.banner-2{
+    margin: 0 10px 0 10px;
+}

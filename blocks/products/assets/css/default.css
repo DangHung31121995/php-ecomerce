@@ -1,0 +1,20 @@
+.block-product-default .block-heading{
+    margin-bottom: 10px;
+    height: 72px; line-height: 72px;
+    text-align: center;
+    background: url(../images/title.jpg) top center no-repeat;
+    font-family: Cambria, Arial; font-weight: normal;
+    font-size: 30px; text-transform: uppercase;
+}
+.block-product-default .block-heading a{
+    color: #333333;
+}
+.block-product-default .block-heading a:hover{
+    text-decoration: none;
+}
+.block-product-default .block-content{
+    margin-right: -10px;
+}
+.block-product-default .product-item{
+    margin-right: 10px;
+}
